@@ -1,0 +1,122 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 11% 11% 0 0;
+    padding: 1rem;
+}
+
+.contenedor_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10% 0;
+}
+
+.contenedor_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 30rem;
+    height: 35rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin: auto;
+}
+
+.box_btn {
+    background-color: blue;
+    color: white;
+    width: 13rem;
+    height: 3rem;
+    margin: 0 3px;
+    border: none;
+}
+.box_btn:hover{
+    background-color: #4d4fb1;
+    cursor: pointer;
+}
+
+.lista {
+    list-style: none;
+
+}
+
+.box_lst {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__reg {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ipt {
+    margin: 0.7rem 0;
+    width: 26.37rem;
+    height: 2.4rem;
+}
+
+.ipt::placeholder {
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Hepta Slab', serif;
+}
+
+.ipt_reg {
+    margin: 0.7rem 3px;
+    width: 13rem;
+    height: 2.4rem;
+}
+
+.ipt_reg::placeholder {
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Hepta Slab', serif;
+}
+
+.form_btn {
+    width: 26.37rem;
+    background-color: #0004ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.form_btn:hover {
+    background-color: #6a58ce;
+    cursor: pointer;
+}
+
+
+.title {
+    margin: -2rem;
+}
